@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+    <header class=" flex flex-col justify-center text-center w-250 p-4 mx-4">
+        <h4 class=" flex justify-center">HUBUNGI KAMI</h4>
+        <h1 class="text-5xl font-bold mb-20">Kontak <span class="text-blue-700">Kami</span></h1>
+        <div class="flex flex-row mx-20 my-2">
+
+            <div class="flex flex-col basis-1/2 mr-2">
+            <label for="nama" class="text-left text-xs">NAMA DEPAN</label>
+            <input placeholder="Masukkan nama depan" type="email" class=" bg-slate-300 object-left mx rounded-md w-100 px-3 py-2 mx-0">
+            </div>
+
+            <div class="flex flex-col basis-1/2">
+            <label for="nama" class="text-left text-xs">NAMA BELAKANG</label>
+            <input placeholder="Masukkan nama belakang" type="email" class="object-left bg-slate-300  rounded-lg w-full px-3 py-2 mx-0" >
+            </div>
+
+        </div>
+        <div class="flex flex-col mx-20 my-2 w-100 ">
+            <label for="nama" class="text-left text-xs">ALAMAT EMAIL</label>
+            <input placeholder="********@*****.***" type="email" class="object-left bg-slate-300  rounded-lg w-full px-3 py-2 mx-0" >
+        </div>
+        
+            <div class="flex flex-col mx-20 w-100 ">
+                <label for="nama" class="text-left text-xs">PESAN ANDA</label>
+                <textarea name="" id="" cols="30" rows="10" class=" bg-slate-300 rounded-lg"></textarea>
+            
+                </div>
+        
+        <div class="flex flex-row mx-20 w-100 justify-between my-2">
+                    <div class="flex justify-center inline"><input type="checkbox" class="float-left"><p class="my-2 mx-1">Kirimkan Newsletter Kami!</p></div>
+                    <input type="button" value="Kirim" class="bg-blue-600 text-white px-4 py-2 rounded-sm justify-end">
+                    </div>
+    </header>
+
+    <section>
+        <div class="bg-indigo-400 flex flex-col">
+            <h1>Invoice</h1>
+            <!-- <div class="bg-slate-500 mx-0 my-0"> -->
+            <table class="mx-4 my-2 p-4 bg-red-300 rounded-xl overflow-hidden">
+                <tr class="text-left mx-3 bg-gray-400">
+                    <th>KLIEN/INVOICE</th>
+                    <th>JUMLAH</th>
+                    <th>KELUAR/JATUH TEMPO</th>
+                    <th>STATUS</th>
+                </tr>
+                <tr class="text-left text-xs">
+                    <th class="flex flex-row"> <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="" class="w-10 h-10 rounded-full">
+                        Molly Sanders
+                        <br>00001
+                    </th>
+                    <th>$20,000 <br>
+                        USD
+                    </th>
+                    <th>28 Sept 2019 <br>
+                        Jatuh tempo dalam 3 hari
+                    </th>
+                    <th class=""><p class="bg-gray-700 w-fit px-1 rounded-md">Lunas</p></th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+</body>
+</html>
