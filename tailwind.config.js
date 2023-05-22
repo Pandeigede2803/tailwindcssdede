@@ -5,6 +5,7 @@ module.exports = {
 'indexgrid.html',
 'indexflex.html',
 'marketplace.html',
+'blog.html',
 
 ],
   theme: {
