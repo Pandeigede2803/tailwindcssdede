@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop2</title>
+</head>
+<link rel="stylesheet" href="dist/output.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/abstract.css' rel='stylesheet'>
+<body class="bg-blue-2">
+    <header class="w-full py-2 bg-blue-1 flex-col sm:flex sm:flex-row sm:justify-between justify-center shadow-md">
+        <div class="flex items-center sm:justify-start justify-center align-middle sm:ml-72">
+            <!-- <i class="mx-2 text-center justify-center text-3xl fa-brands fa-telegram font-bold text-black"></i> -->
+            <img src="/AssetsTailwindFinalProject/cek_toko_sebelah-.png" alt="" class="h-12 sm:ml-6">
+            <h1 class="text-white text-base font-bold">E-commerce Buku</h1>
+        </div>
+       <nav class="flex flex-row sm:justify-end justify-center sm:mr-56">
+        <a href="#" class="text-white hover:text-gray-200 px-3 py-2"><i class="fa-solid fa-gear"></i></a>
+        <a href="#" class="text-white hover:text-gray-200 px-3 py-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" class="text-white hover:text-gray-200 px-3 py-2"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" class="text-white hover:text-gray-200 px-3 py-2"><i class="fa-solid fa-user"></i></a>
+       </nav>
+    </div>
+</header>
+<section class="flex flex-col sm:flex sm:flex-row sm:mr-2 ">
+
+    <!-- list product -->
+    <!-- left -->
+
+<div class=" px-4  sm:basis-1/5 sm:flex  sm:flex-row justify-center my-4 ">
+    <div class="hover:bg-white hover:text-black text-white w-full rounded-lg bg-blue-3 shadow-sm shadow-gray-500 my-2  px-6 pt-9 pb-8 sm:h-2/6">
+        <h1 class="font-bold  border-b-2 my-3">Filter</h1>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <h1 class="font-bold  my-3">Rating</h1>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <h1 class="font-bold  my-3">Other filter</h1>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+        <div class="flex flex-row"><input type="radio" value="" class="mr-2"> <li class="list-none my-2 sm:text-xl">Price-Low to High</li></div>
+
+    </div>
+</div>
+
+<!-- right -->
+<div class="mb-4 sm:mt-4 sm:basis-4/6">
+<!-- navgrid -->
+<div class=" flex flex-row justify-between px-5 mx-5">
+    <h6 class="text-white">All E-books</h6>
+    <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+</div>
+
+<!-- gridproduct -->
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 my-5 mx-3">
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex  flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 overflow-hidden mt-5 mx-2 item flex flex-col border  border-grey-1 rounded-md">
+            <img src="AssetsTailwindFinalProject/front-view-stacked-books-ladders-education-day.jpg" alt="" class="">
+            
+            <div class="flex flex-col px-6 pt-2 pb-2 my-2 mr-2 ml-0 ">
+                <div class="flex flex-col">
+                <h3 class="text-xl text-white font-bold my-2 sm:text-lg">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-white text-xs font-thin my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores ipsa esse sint laboriosam sit.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                    <i class="fa-solid fa-star text-kuning mr-1"></i>
+                </div>
+                <div class="flex flex-row justify-between mt-5">
+                    <h3 class="text-white">$99</h3>
+                <a href="#" class="text-white text-xs bg-2 bg-blue-4 px-2 py-1 rounded-md">Add to Cart +</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+</section>
+
+<!-- menu footer -->
+    <footer class="mb-0  flex flex-col justify-center text-center sm:flex sm:flex-row-reverse sm:justify-between">
+        <div class="sm:flex flex-row sm:mt-8 sm:mr-56">
+            <div class="flex flex-row justify-center sm:justify-end my-4 text-white">
+            <i class="fa-brands fa-instagram mx-1 text-lg"></i>
+            <i class="fa-brands fa-twitter mx-1 text-lg"></i>
+
+            <i class="fa-brands fa-github mx-1 text-lg"></i>
+            </div>
+        </div>
+        <div class="flex flex-row justify-center  mb-10 sm:ml-72 sm:mt-8 text-white">
+            <h4 class="text-white text-xs mt-0 mb-3 sm:mt-4 sm:justify-start">@2023 Cek Toko Sebelah. All Right Reserved</h4></h4>
+        </div>
+    </footer>
+    
+</body>
+</html>
