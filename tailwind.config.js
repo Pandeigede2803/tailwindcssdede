@@ -9,6 +9,8 @@ module.exports = {
 'card.html',
 'project.html',
 'project2.html',
+'project3.html',
+'project4.html',
 
 ],
   theme: {
